@@ -1,0 +1,54 @@
+{
+    "manifest_version": 3,
+    "name": "Typewriter",
+    "description": "classic typewriter sound",
+    "version": "1.0",
+    "author": "Henry Tan",
+    "developer":
+    {
+        "name": "Henry Tan"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+        
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/typewriterHit.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/typewriterEnter.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/typewriterBackspace.mp3"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/typewriterSpace.mp3"
+                ]
+            },
+            "browser_sounds":
+            {
+                "TAB_CLOSE":
+                [
+                    "sounds/typewriterTabClose.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sounds/typewriterTabOpen.mp3"
+                ],
+                "CLICK":
+                [
+                    "sounds/typewriterClick.mp3"
+                ]
+            }
+       }
+    }
+    
+}
